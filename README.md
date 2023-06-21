@@ -42,8 +42,8 @@ The Common Data Model is a declarative specification, and definition of standard
 There are two ways to consume the information in this repository:
 
 
-1. <a href= "https://musical-adventure-ey6okom.pages.github.io/SchemaViz.html" target="_new">DWS CDM Schema Explorer</a>
-2. <a href="https://musical-adventure-ey6okom.pages.github.io/" target="_new">DWS CDM Visual Entity Navigator</a> for interactively exploring entities, entity extensions/inheritance, attributes, and relationships
+1. <a href= "https://kyndryl-dws-oc.github.io/dws-cmd/SchemaViz.html" target="_new">DWS CDM Schema Explorer</a>
+2. <a href="https://kyndryl-dws-oc.github.io/dws-cmd/" target="_new">DWS CDM Visual Entity Navigator</a> for interactively exploring entities, entity extensions/inheritance, attributes, and relationships
 
 Schema definitins described here are based on the below DWS solution contexts.
 
