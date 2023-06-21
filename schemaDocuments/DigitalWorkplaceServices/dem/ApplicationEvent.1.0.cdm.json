@@ -1,0 +1,55 @@
+
+{
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "imports" : [
+       {
+         "corpusPath" : "_allimports.cdm.json"
+       }
+     ],
+ 
+     "definitions":[
+        {
+            "entityName" : "ApplicationEvent",
+            "hasAttributes" :[
+                {
+                    "name": "applicationId",
+                    "dataType": "string",
+                    "appliedTraits":["means.identity"]
+                },
+                {
+                    "name": "deviceId",
+                    "dataType": "string"
+                    
+                    
+                },
+                {
+                    "name": "activity",
+                    "dataType": "string"
+                },
+                {
+                    "name": "eventCategory",
+                    "dataType": "string"
+                },
+                {
+                    "name": "eventDetail",
+                    "dataType": "string"
+                },
+                {
+                    "name": "eventType",
+                    "dataType": "string"
+                },
+                {
+                    "name": "title",
+                    "dataType": "string"
+                },
+                {
+                    "name": "timeframe",
+                    "dataType": "string"
+                }
+        
+            ]
+        }
+ 
+     ]
+ }
+ 

@@ -1,0 +1,39 @@
+{
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "imports" : [
+       {
+         "corpusPath" : "_allimports.cdm.json"
+       }
+     ],
+ 
+     "definitions":[
+        {
+            "entityName" : "Topic",
+            "hasAttributes" :[
+                {
+                    "name": "topicCode",
+                    "dataType": "string"
+                },
+                {
+                    "name": "topicId",
+                    "dataType": "string",
+                    "appliedTraits":["means.identity"]
+        
+                },
+                {
+                    "name":"topicName",
+                    "dataType" : "string"
+                },
+                {
+                    "name":"knowledgeBaseID",
+                    "dataType" : "string"
+                }
+        
+            ]
+        }
+ 
+     ]
+ }
+ 
+ 
+ 

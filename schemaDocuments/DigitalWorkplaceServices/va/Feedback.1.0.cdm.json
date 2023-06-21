@@ -1,0 +1,38 @@
+
+{
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "imports" : [
+       {
+         "corpusPath" : "_allimports.cdm.json"
+       }
+     ],
+ 
+     "definitions":[
+        {
+            "entityName" : "Feedback",
+            "hasAttributes" :[
+                {
+                    "name": "feedbackId",
+                    "dataType": "string",
+                    "appliedTraits":["means.identity"]
+                },
+                {
+                    "name": "feedbackType",
+                    "dataType": "string"
+                    
+                    
+                },
+                {
+                    "name":"sentiment",
+                    "dataType" : "string"
+                    
+                }
+        
+            ]
+        }
+ 
+     ]
+ }
+ 
+ 
+ 

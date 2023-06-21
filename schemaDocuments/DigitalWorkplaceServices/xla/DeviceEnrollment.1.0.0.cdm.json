@@ -1,0 +1,41 @@
+
+{
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "imports" : [
+       {
+         "corpusPath" : "_allimports.cdm.json"
+       }
+     ],
+ 
+     "definitions":[
+        {
+            "entityName" : "Device Enrollment",
+            "hasAttributes" :[
+                {
+                    "name": "weight",
+                    "dataType": "string"
+                },
+                {
+                    "name": "baseline",
+                    "dataType": "string"
+                },
+                {
+                    "name": "target",
+                    "dataType": "string"
+                },
+                {
+                    "name": "outcome",
+                    "dataType": "string"
+                },
+                {
+                    "name": "incentive",
+                    "dataType": "string"
+                }
+            ]
+        }
+ 
+     ]
+ }
+ 
+ 
+ 

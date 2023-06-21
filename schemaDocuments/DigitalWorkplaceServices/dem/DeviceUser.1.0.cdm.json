@@ -1,0 +1,59 @@
+
+{
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "imports" : [
+       {
+         "corpusPath" : "_allimports.cdm.json"
+       }
+     ],
+ 
+     "definitions":[
+        {
+            "entityName" : "DeviceUser",
+            "hasAttributes" :[
+                {
+                    "name": "userId",
+                    "dataType": "string",
+                    "appliedTraits":["means.identity"]
+                },
+                {
+                    "name": "accountId",
+                    "dataType": "string"                    
+                },
+                {
+                    "name": "userName",
+                    "dataType": "string"                    
+                },
+                {
+                    "name": "roles",
+                    "dataType": "string"                    
+                },
+                {
+                    "name": "officeLocation",
+                    "dataType": "string"                    
+                },
+                {
+                    "name": "userFullName",
+                    "dataType": "string"                    
+                },
+                {
+                    "name": "email",
+                    "dataType": "string"                    
+                },
+                {
+                    "name": "domain",
+                    "dataType": "string"                    
+                },
+                {
+                    "name": "department",
+                    "dataType": "string"                    
+                }
+        
+            ]
+        }
+ 
+     ]
+ }
+ 
+ 
+ 

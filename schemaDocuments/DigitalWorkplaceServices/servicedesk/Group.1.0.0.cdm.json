@@ -1,0 +1,30 @@
+
+{
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "imports" : [
+       {
+         "corpusPath" : "_allimports.cdm.json"
+       }
+     ],
+ 
+     "definitions":[
+        {
+            "entityName" : "Group",
+            "hasAttributes" :[
+                {
+                    "name": "groupName",
+                    "dataType": "string"
+                    
+                },
+                {
+                    "name": "spacility",
+                    "dataType": "string"
+                }
+            ]
+        }
+ 
+     ]
+ }
+ 
+ 
+ 

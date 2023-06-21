@@ -1,0 +1,122 @@
+
+{
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "imports" : [
+       {
+         "corpusPath" : "_allimports.cdm.json"
+       }
+     ],
+ 
+     "definitions":[
+        {
+            "entityName" : "DeviceHealthEvent",
+            "hasAttributes" :[
+                {
+                    "name": "applicationId",
+                    "dataType": "string",
+                    "appliedTraits":["means.identity"]
+                },
+                {
+                    "name": "category",
+                    "dataType": "string"
+                    
+                    
+                },
+                {
+                    "name": "component",
+                    "dataType": "string"
+                },
+                {
+                    "name": "componentVersion",
+                    "dataType": "string"
+                },
+                {
+                    "name": "componentType",
+                    "dataType": "string"
+                },
+                {
+                    "name": "eventDetail",
+                    "dataType": "string"
+                },
+                {
+                    "name": "error",
+                    "dataType": "string"
+                },
+                {
+                    "name": "exceptionType",
+                    "dataType": "string"
+                },
+                {
+                    "name": "manufacturerName",
+                    "dataType": "string",
+                    "description": "Manufacturer Name"
+                },
+                {
+                    "name": "memoryType",
+                    "dataType": "string",
+                    "description": "Device Memory Type"
+                },
+                {
+                    "name": "eventName",
+                    "dataType": "string",
+                    "description": "Event Name"
+                },
+                {
+                    "name": "severity",
+                    "dataType": "string",
+                    "description": "severity"
+                },
+                {
+                    "name": "eventStack",
+                    "dataType": "string"
+                },
+                {
+                    "name": "eventStatus",
+                    "dataType": "string"
+                },
+                {
+                    "name": "eventStatus",
+                    "dataType": "string"
+                },
+                {
+                    "name": "eventStopEventInfo",
+                    "dataType": "string"
+                },
+                {
+                    "name": "eventSubCategory",
+                    "dataType": "string"
+                },
+                {
+                    "name": "eventSubComponent",
+                    "dataType": "string"
+                },
+                {
+                    "name": "eventSubComponentVersion",
+                    "dataType": "string"
+                },
+                {
+                    "name": "eventSubComponentType",
+                    "dataType": "string"
+                },
+                {
+                    "name": "maxTimestamp",
+                    "dataType": "string"
+                },
+                {
+                    "name": "machinePowerplan",
+                    "dataType": "string"
+                },
+                {
+                    "name": "timeframe",
+                    "dataType": "string"
+                },
+                {
+                    "name": "deviceId",
+                    "dataType": "string"
+                }
+        
+            ]
+        }
+ 
+     ]
+ }

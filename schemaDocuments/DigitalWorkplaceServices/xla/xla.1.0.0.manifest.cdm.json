@@ -1,0 +1,80 @@
+{
+  "jsonSchemaSemanticVersion" : "1.1.0",
+  "imports" : [
+     {
+       "corpusPath" : "local:/_allimports.cdm.json"
+     }
+   ],
+   "manifestName": "xla",
+
+   "explanation": "Entities Representing XLA and XPI ",
+   "entities":[
+      {
+          "type": "LocalEntity",
+          "entityName": "Device Delivery Time",
+          "entityPath": "DeviceDeliveryTime.1.0.0.cdm.json/DeviceDeliveryTime"
+      },
+      {
+          "type": "LocalEntity",
+          "entityName": "Device Enrollment",
+          "entityPath": "DeviceEnrollment.1.0.0.cdm.json/Device Enrollment"
+      },
+      {
+          "type": "LocalEntity",
+          "entityName": "Device Experience",
+          "entityPath": "DeviceExperience.1.0.0.cdm.json/Device Experience"
+      },
+      {
+          "type": "LocalEntity",
+          "entityName": "Device Health Score",
+          "entityPath": "DeviceHealthScore.1.0.0.cdm.json/Device Health Score"
+      },
+      {
+          "type": "LocalEntity",
+          "entityName": "Device Performance Feedback",
+          "entityPath": "DevicePerformanceFeedback.1.0.0.cdm.json/Device Performance Feedback"
+      },
+      {
+          "type": "LocalEntity",
+          "entityName": "Digital Experience",
+          "entityPath": "DigitalExperience.1.0.0.cdm.json/Digital Experience"
+      },
+      {
+          "type":"LocalEntity",
+          "entityName":"Experience",
+          "entityPath": "Experience.1.0.0.cdm.json/Experience"
+      }
+
+
+      ,
+      {
+          "type":"LocalEntity",
+          "entityName":"Onboarding",
+          "entityPath": "Onboarding.1.0.0.cdm.json/Onboarding"
+      }
+
+      ,
+      {
+          "type":"LocalEntity",
+          "entityName":"Support Experience",
+          "entityPath": "SupportExperience.1.0.0.cdm.json/Support Experience"
+      }
+
+      ,
+      {
+          "type":"LocalEntity",
+          "entityName":"UEM Experience Index",
+          "entityPath": "UEMExperienceIndex.1.0.0.cdm.json/UEM Experience Index"
+      },
+      {
+          "type":"LocalEntity",
+          "entityName":"User Experience Index",
+          "entityPath": "UserExperienceIndex.1.0.0.cdm.json/User Experience Index"
+      }
+   ],
+   "relationships":[
+      
+   ]
+}
+
+

@@ -1,0 +1,34 @@
+
+{
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "imports" : [
+       {
+         "corpusPath" : "_allimports.cdm.json"
+       }
+     ],
+ 
+     "definitions":[
+        {
+            "entityName" : "Agent",
+            "hasAttributes" :[
+                {
+                    "name": "agentName",
+                    "dataType": "string"
+                    
+                },
+                {
+                    "name": "email",
+                    "dataType": "string"
+                },
+                {
+                    "name": "phone",
+                    "dataType": "department"
+                }
+            ]
+        }
+ 
+     ]
+ }
+ 
+ 
+ 

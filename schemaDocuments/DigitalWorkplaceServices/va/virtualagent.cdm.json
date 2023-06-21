@@ -1,0 +1,33 @@
+{
+   "jsonSchemaSemanticVersion" : "1.1.0",
+   "imports" : [
+      {
+        "corpusPath" : "_allimports.cdm.json"
+      }
+    ],
+
+    "definitions":[
+      {
+        
+            "entityName" : "VirtualAgent",
+            "hasAttributes" :[
+                {
+                    "name": "virtualAgentInstanceId",
+                    "dataType": "string",
+                    "appliedTraits":["means.identity"]
+                },
+                {
+                    "name": "virtualAgentName",
+                    "dataType": "string",
+                    "appliedTraits":["means.identity"]
+        
+                }
+        
+            ]
+        
+     }
+
+    ]
+}
+
+

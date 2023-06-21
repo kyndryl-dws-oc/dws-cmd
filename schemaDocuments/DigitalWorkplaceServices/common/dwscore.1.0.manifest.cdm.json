@@ -1,0 +1,24 @@
+{
+  "jsonSchemaSemanticVersion" : "1.1.0",
+  "imports" : [
+     {
+       "corpusPath" : "local:/_allImports.cdm.json"
+     }
+   ],
+   "manifestName": "DWS Core",
+
+   "explanation": "DWS Common Entities",
+   "entities":[
+      {
+          "type": "LocalEntity",
+          "entityName": "Account",
+          "entityPath": "Account.1.0.cdm.json/Account"
+      }
+      
+   ],
+   "relationships":[
+      
+   ]
+}
+
+

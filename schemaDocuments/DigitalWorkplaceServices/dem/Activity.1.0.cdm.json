@@ -1,0 +1,33 @@
+
+{
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "imports" : [
+       {
+         "corpusPath" : "local:/_allImports.cdm.json"
+       }
+     ],
+ 
+     "definitions":[
+        {
+            "entityName" : "Activity",
+            "hasAttributes" :[
+                {
+                    "name": "activityId",
+                    "dataType": "string",
+                    "appliedTraits":["means.identity"]
+                },
+                {
+                    "name": "activityType",
+                    "dataType": "string"
+                    
+                    
+                }
+        
+            ]
+        }
+ 
+     ]
+ }
+ 
+ 
+ 

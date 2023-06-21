@@ -1,0 +1,41 @@
+
+{
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "imports" : [
+       {
+         "corpusPath" : "_allimports.cdm.json"
+       }
+     ],
+ 
+     "definitions":[
+        {
+            "entityName" : "Support Experience",
+            "hasAttributes" :[
+                {
+                    "name": "shortCode",
+                    "dataType": "string"
+                },
+                {
+                    "name": "description",
+                    "dataType": "string"
+                },
+                {
+                    "name": "target",
+                    "dataType": "string"
+                },
+                {
+                    "name": "outcome",
+                    "dataType": "string"
+                },
+                {
+                    "name": "incentive",
+                    "dataType": "string"
+                }
+            ]
+        }
+ 
+     ]
+ }
+ 
+ 
+ 

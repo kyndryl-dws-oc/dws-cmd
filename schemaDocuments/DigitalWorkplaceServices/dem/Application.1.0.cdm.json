@@ -1,0 +1,67 @@
+
+{
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "imports" : [
+       {
+         "corpusPath" : "_allimports.cdm.json"
+       }
+     ],
+ 
+     "definitions":[
+        {
+            "entityName" : "Application",
+            "hasAttributes" :[
+                {
+                    "name": "applicationId",
+                    "dataType": "string",
+                    "appliedTraits":["means.identity"]
+                },
+                {
+                    "name": "deviceId",
+                    "dataType": "string"
+                },
+                {
+                    "name": "applicationName",
+                    "dataType": "string"
+                },
+                {
+                    "name": "applicationType",
+                    "dataType": "string"
+                },
+                {
+                    "name": "applicationType",
+                    "dataType": "string"
+                },
+                {
+                    "name": "applicationVersion",
+                    "dataType": "string"
+                },
+                {
+                    "name": "browser",
+                    "dataType": "string"
+                },
+                {
+                    "name": "businessLocation",
+                    "dataType": "string"
+                },
+                {
+                    "name": "changePilotGroup",
+                    "dataType": "string"
+                },
+                {
+                    "name": "clientDeviceName",
+                    "dataType": "string"
+                },
+                {
+                    "name": "clientDeviceType",
+                    "dataType": "string"
+                }                          
+        
+            ]
+        }
+ 
+     ]
+ }
+ 
+ 
+ 

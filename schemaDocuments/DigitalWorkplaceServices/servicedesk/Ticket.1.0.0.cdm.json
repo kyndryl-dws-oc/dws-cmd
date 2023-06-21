@@ -1,0 +1,49 @@
+
+{
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "imports" : [
+       {
+         "corpusPath" : "_allimports.cdm.json"
+       }
+     ],
+ 
+     "definitions":[
+        {
+            "entityName" : "Ticket",
+            "hasAttributes" :[
+                {
+                    "name": "ticketId",
+                    "dataType": "string",
+                    "appliedTraits":["means.identity"]
+                },
+                {
+                    "name": "shortDescription",
+                    "dataType": "string"
+                },
+                {
+                    "name": "longDescription",
+                    "dataType": "string"
+                },
+                {
+                    "name": "severity",
+                    "dataType": "string"
+                },
+                {
+                    "name": "priority",
+                    "dataType": "string"
+                },
+                {
+                    "name": "createdOn",
+                    "dataType": "date"
+                }
+
+
+        
+            ]
+        }
+ 
+     ]
+ }
+ 
+ 
+ 

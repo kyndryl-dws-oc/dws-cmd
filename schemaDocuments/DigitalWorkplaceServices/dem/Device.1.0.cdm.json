@@ -1,0 +1,133 @@
+
+{
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "imports" : [
+       {
+         "corpusPath" : "_allimports.cdm.json"
+       }
+     ],
+ 
+     "definitions":[
+        {
+            "entityName" : "Device",
+            "hasAttributes" :[
+                {
+                    "name": "deviceId",
+                    "dataType": "string",
+                    "appliedTraits":["means.identity"]
+                },
+                {
+                    "name": "deviceType",
+                    "dataType": "string"
+                },
+                {
+                    "name": "userId",
+                    "dataType": "string"
+                },
+                {
+                    "name": "accountId",
+                    "dataType": "string"
+                },
+                {
+                    "name": "agentCurrentStatus",
+                    "dataType": "string"
+                },
+                {
+                    "name": "agentVersion",
+                    "dataType": "string"
+                },
+                {
+                    "name": "city",
+                    "dataType": "string"
+                },
+                {
+                    "name": "country",
+                    "dataType": "string"
+                },
+                {
+                    "name": "department",
+                    "dataType": "string"
+                },
+                {
+                    "name": "deviceCPUCores",
+                    "dataType": "string"
+                },
+                {
+                    "name": "deviceCPUFrequency",
+                    "dataType": "string"
+                },
+                {
+                    "name": "deviceCPUGeneration",
+                    "dataType": "string"
+                },
+                {
+                    "name": "deviceCPUModel",
+                    "dataType": "string"
+                },
+                {
+                    "name": "deviceCPUType",
+                    "dataType": "string"
+                },
+                {
+                    "name": "deviceManufacturer",
+                    "dataType": "string"
+                },
+                {
+                    "name": "deviceMemory",
+                    "dataType": "string"
+                },
+                {
+                    "name": "deviceModel",
+                    "dataType": "string"
+                },
+                {
+                    "name": "deviceName",
+                    "dataType": "string"
+                },
+                {
+                    "name": "enforcePrivacy",
+                    "dataType": "string"
+                },
+                {
+                    "name": "ipAddress",
+                    "dataType": "string"
+                },
+                {
+                    "name": "lastReportingDatetime",
+                    "dataType": "string"
+                },
+                {
+                    "name": "location",
+                    "dataType": "string"
+                },
+                {
+                    "name": "datacenterLocation",
+                    "dataType": "string"
+                },
+                {
+                    "name": "daysSinceLastBoot",
+                    "dataType": "string"
+                },
+                {
+                    "name": "osArchitecture",
+                    "dataType": "string"
+                },
+                {
+                    "name": "osDiskType",
+                    "dataType": "string"
+                },
+                {
+                    "name": "osName",
+                    "dataType": "string"
+                },
+                {
+                    "name": "osVersion",
+                    "dataType": "string"
+                }
+        
+            ]
+        }
+ 
+     ]
+ }
+ 

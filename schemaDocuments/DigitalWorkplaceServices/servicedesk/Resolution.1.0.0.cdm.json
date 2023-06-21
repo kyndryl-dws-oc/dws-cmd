@@ -1,0 +1,60 @@
+
+{
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "imports" : [
+       {
+         "corpusPath" : "_allimports.cdm.json"
+       }
+     ],
+ 
+     "definitions":[
+        {
+            "entityName" : "ResolutionInfo",
+            "hasAttributes" :[
+                {
+                    "name": "resolutionCategory",
+                    "dataType": "string"
+                    
+                },
+                {
+                    "name": "rootCause",
+                    "dataType": "string"
+                },
+                {
+                    "name": "resolutionNotes",
+                    "dataType": "string"
+                },
+                {
+                    "name": "resolutionDatetime",
+                    "dataType": "string"
+                },
+                {
+                    "name": "resolverGroup",
+                    "dataType": "string"
+                },
+                {
+                    "name": "resolutionOwner",
+                    "dataType": "string"
+                },
+                {
+                    "name": "reassignmentCount",
+                    "dataType": "integer"
+                },
+                {
+                    "name": "reopenCount",
+                    "dataType": "integer"
+                },
+                {
+                    "name": "resolutionMethod",
+                    "dataType": "integer"
+                },
+                {
+                    "name": "worknotes",
+                    "dataType": "integer"
+                }
+            ]
+        }
+ 
+     ]
+ }
+ 

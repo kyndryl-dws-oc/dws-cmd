@@ -1,0 +1,37 @@
+
+{
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "imports" : [
+       {
+         "corpusPath" : "_allimports.cdm.json"
+       }
+     ],
+ 
+     "definitions":[
+        {
+            "entityName" : "ReportingAgent",
+            "hasAttributes" :[
+                {
+                    "name": "agentId",
+                    "dataType": "string",
+                    "appliedTraits":["means.identity"]
+                },
+                {
+                    "name": "agentPath",
+                    "dataType": "string"
+                    
+                    
+                },
+                {
+                    "name":"agentName",
+                    "dataType" : "string"
+                    
+                }
+        
+            ]
+        }
+ 
+     ]
+ }
+ 
+ 

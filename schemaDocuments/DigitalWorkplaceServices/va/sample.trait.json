@@ -1,0 +1,29 @@
+{
+   "traitName":"means.measurement",
+   "explanation":"The root trait for all measurements."
+},
+{
+   "traitName":"means.measurement.distance",
+   "explanation":"A measurement of distance with a unit of measure.",
+   "extendsTrait":"means.measurement",
+   "hasParameters":[
+      {
+         "name":"units",
+         "explanation":"The unit of measure for the distance values",
+         "required":true,
+         "dataType":"string"
+      }
+   ]
+},
+{
+   "traitName":"means.measurement.distance.meters",
+   "extendsTrait":{
+      "traitReference":"means.measurement.distance",
+      "arguments":[
+         {
+            "name":"units",
+            "value":"Meter"
+         }
+      ]
+   }
+}

@@ -1,0 +1,93 @@
+{
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "imports" : [
+       {
+         "corpusPath" : "local:/_allimports.cdm.json"
+       }
+     ],
+     "manifestName": "dem",
+
+     "explanation": "Device Experience Monitoring Standard Entities",
+     "entities":[
+        {
+            "type": "LocalEntity",
+            "entityName": "Activity",
+            "entityPath": "Activity.1.0.cdm.json/Activity"
+        },
+        {
+            "type": "LocalEntity",
+            "entityName": "Application",
+            "entityPath": "Application.1.0.cdm.json/Application"
+        },
+        {
+            "type": "LocalEntity",
+            "entityName": "ApplicationEvent",
+            "entityPath": "ApplicationEvent.1.0.cdm.json/ApplicationEvent"
+        },
+        {
+            "type": "LocalEntity",
+            "entityName": "Device",
+            "entityPath": "Device.1.0.cdm.json/Device"
+        },
+        {
+            "type": "LocalEntity",
+            "entityName": "DeviceUser",
+            "entityPath": "DeviceUser.1.0.cdm.json/DeviceUser"
+        },
+        {
+            "type": "LocalEntity",
+            "entityName": "ReportingAgent",
+            "entityPath": "ReportingAgent.1.0.cdm.json/ReportingAgent"
+        },
+        {
+            "type":"LocalEntity",
+            "entityName":"DeviceHealthEvent",
+            "entityPath": "DeviceHealthEvent.1.0.cdm.json/DeviceHealthEvent"
+        }
+     ],
+     "relationships":[
+        {
+            "fromEntity": "Activity.1.0.cdm.json/Activity",
+            "fromEntityAttribute": "activityId",
+            "toEntity": "DeviceUser.1.0.cdm.json/DeviceUser",
+            "toEntityAttribute": "userId",
+            "name":"rel-user-activity"
+
+        },
+        {
+            "fromEntity": "Device.1.0.cdm.json/Device",
+            "fromEntityAttribute": "userId",
+            "toEntity": "../common/User.1.0.cdm.json/User",
+            "toEntityAttribute": "userId",
+            "name":"rel-user-devices"
+
+        },
+        {
+            "fromEntity": "Application.1.0.cdm.json/Application",
+            "fromEntityAttribute": "deviceId",
+            "toEntity": "Device.1.0.cdm.json/Device",
+            "toEntityAttribute": "deviceId",
+            "name":"rel-device-application"
+
+        },
+        {
+            "fromEntity": "DeviceHealthEvent.1.0.cdm.json/DeviceHealthEvent",
+            "fromEntityAttribute": "deviceId",
+            "toEntity": "Device.1.0.cdm.json/Device",
+            "toEntityAttribute": "deviceId",
+            "name":"rel-device-healthevents"
+
+        },
+        {
+            "fromEntity": "ApplicationEvent.1.0.cdm.json/ApplicationEvent",
+            "fromEntityAttribute": "applicationId",
+            "toEntity": "Application.1.0.cdm.json/Application",
+            "toEntityAttribute": "applicationId",
+            "name":"rel-application-events"
+
+        }
+     ]
+ }
+ 
+ 
+ 

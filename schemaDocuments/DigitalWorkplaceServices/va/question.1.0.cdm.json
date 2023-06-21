@@ -1,0 +1,35 @@
+{
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "imports" : [
+       {
+         "corpusPath" : "_allimports.cdm.json"
+       }
+     ],
+ 
+     "definitions":[
+       {
+        "entityName" : "Question",
+        "hasAttributes" :[
+            {
+                "name": "topicCode",
+                "dataType": "string"
+            },
+            {
+                "name": "canonicalForm",
+                "dataType": "string"
+                
+    
+            },
+            {
+                "name":"questionUniqueID",
+                "dataType" : "string"
+            }
+    
+        ]
+    }
+ 
+     ]
+ }
+ 
+ 
+ 

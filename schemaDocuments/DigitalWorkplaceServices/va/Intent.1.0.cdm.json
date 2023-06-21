@@ -1,0 +1,35 @@
+{
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "imports" : [
+       {
+         "corpusPath" : "_allimports.cdm.json"
+       }
+     ],
+ 
+     "definitions":[
+        {
+            "entityName" : "Intent",
+            "hasAttributes" :[
+                {
+                    "name": "intent",
+                    "dataType": "string"
+                },
+                {
+                    "name": "intentId",
+                    "dataType": "string",
+                    "appliedTraits":["means.identity"]
+        
+                },
+                {
+                    "name":"intentDescription",
+                    "dataType" : "string"
+                }
+        
+            ]
+        }
+ 
+     ]
+ }
+ 
+ 
+ 

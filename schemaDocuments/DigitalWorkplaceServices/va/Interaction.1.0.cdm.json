@@ -1,0 +1,35 @@
+{
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "imports" : [
+       {
+         "corpusPath" : "_allimports.cdm.json"
+       }
+     ],
+ 
+     "definitions":[
+        {
+            "entityName" : "Interaction",
+            "hasAttributes" :[
+                {
+                    "name": "interactionId",
+                    "dataType": "string",
+                    "appliedTraits":["means.identity"]
+                },
+                {
+                    "name": "inputQuestion",
+                    "dataType": "string"
+                    
+                },
+                {
+                    "name":"identifiedTopic",
+                    "dataType" : "Topic"
+                }
+        
+            ]
+        }
+ 
+     ]
+ }
+ 
+ 
+ 

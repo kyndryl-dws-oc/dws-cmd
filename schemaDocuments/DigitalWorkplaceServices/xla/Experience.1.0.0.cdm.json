@@ -1,0 +1,33 @@
+
+{
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "imports" : [
+       {
+         "corpusPath" : "_allimports.cdm.json"
+       }
+     ],
+ 
+     "definitions":[
+        {
+            "entityName" : "Experience",
+            "hasAttributes" :[
+                {
+                    "name": "name",
+                    "dataType": "string"
+                },
+                {
+                    "name": "description",
+                    "dataType": "string"
+                },
+                {
+                    "name": "type",
+                    "dataType": "string"
+                }
+            ]
+        }
+ 
+     ]
+ }
+ 
+ 
+ 

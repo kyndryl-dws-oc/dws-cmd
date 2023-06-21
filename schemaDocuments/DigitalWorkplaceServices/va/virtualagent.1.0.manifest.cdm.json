@@ -1,0 +1,52 @@
+{
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "imports" : [
+       {
+         "corpusPath" : "_allimports.cdm.json"
+       }
+     ],
+     "manifestName": "virtualagent",
+ 
+     "entities":[
+      {
+        "type" : "LocalEntity",
+        "entityName" : "Conversation",
+        "entityPath" : "conversation.1.0.cdm.json/Conversation"
+      },
+      {
+        "type" : "LocalEntity",
+        "entityName" : "Feedback",
+        "entityPath" : "Feedback.1.0.cdm.json/Feedback"
+      },
+      {
+        "type" : "LocalEntity",
+        "entityName" : "Intent",
+        "entityPath" : "Intent.1.0.cdm.json/Intent"
+      },
+      {
+        "type" : "LocalEntity",
+        "entityName" : "Interaction",
+        "entityPath" : "Interaction.1.0.cdm.json/Interaction"
+      },
+      {
+        "type" : "LocalEntity",
+        "entityName" : "Question",
+        "entityPath" : "question.1.0.cdm.json/Question"
+      },
+      {
+        "type" : "LocalEntity",
+        "entityName" : "Topic",
+        "entityPath" : "topic.1.0.cdm.json/Topic"
+      },
+      {
+        "type" : "LocalEntity",
+        "entityName" : "VirtualAgent",
+        "entityPath" : "virtualagent.1.0.cdm.json/VirtualAgent"
+      }
+ 
+     ],
+     "relationships":[]
+ }
+ 
+ 
+ 

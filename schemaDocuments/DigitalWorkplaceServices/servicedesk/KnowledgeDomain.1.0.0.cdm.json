@@ -1,0 +1,34 @@
+
+{
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "imports" : [
+       {
+         "corpusPath" : "_allimports.cdm.json"
+       }
+     ],
+ 
+     "definitions":[
+        {
+            "entityName" : "KnowledgeDomain",
+            "hasAttributes" :[
+                {
+                    "name": "subjectCategory",
+                    "dataType": "string"
+                    
+                },
+                {
+                    "name": "intent",
+                    "dataType": "string"
+                },
+                {
+                    "name": "entities",
+                    "dataType": "string"
+                }
+            ]
+        }
+ 
+     ]
+ }
+ 
+ 
+ 

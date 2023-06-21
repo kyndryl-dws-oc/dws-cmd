@@ -1,0 +1,64 @@
+{
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "imports" : [
+       {
+         "corpusPath" : "_allimports.cdm.json"
+       }
+     ],
+     "manifestName": "Service Desk",
+
+     "explanation": "Service Desk Standard Entities",
+     "entities":[
+        {
+            "type": "LocalEntity",
+            "entityName": "Activity",
+            "entityPath": "Ticket.1.0.0.cdm.json/Ticket"
+        },
+        {
+            "type": "LocalEntity",
+            "entityName": "Agent",
+            "entityPath": "Agent.1.0.0.cdm.json/Agent"
+        },
+        {
+            "type": "LocalEntity",
+            "entityName": "AssignmentGroup",
+            "entityPath": "AssignmentGroup.1.0.0.cdm.json/AssignmentGroup"
+        },
+        {
+            "type": "LocalEntity",
+            "entityName": "Correspondence",
+            "entityPath": "Correspondence.1.0.0.cdm.json/Correspondence"
+        },
+        {
+            "type": "LocalEntity",
+            "entityName": "Group",
+            "entityPath": "Group.1.0.0.cdm.json/Group"
+        },
+        {
+            "type": "LocalEntity",
+            "entityName": "Issue",
+            "entityPath": "Issue.1.0.0.cdm.json/ProblemDetail"
+        },
+        {
+            "type": "LocalEntity",
+            "entityName": "Knowledge Domain",
+            "entityPath": "KnowledgeDomain.1.0.0.cdm.json/KnowledgeDomain"
+        },
+        {
+            "type": "LocalEntity",
+            "entityName": "Resolution",
+            "entityPath": "Resolution.1.0.0.cdm.json/ResolutionInfo"
+        },{
+            "type": "LocalEntity",
+            "entityName": "Ticket",
+            "entityPath": "Ticket.1.0.0.cdm.json/Ticket"
+        }
+        
+     ],
+     "relationships":[
+        
+     ]
+ }
+ 
+ 
+ 

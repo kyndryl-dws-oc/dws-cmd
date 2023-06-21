@@ -1,0 +1,38 @@
+
+{
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "imports" : [
+       {
+         "corpusPath" : "_allimports.cdm.json"
+       }
+     ],
+ 
+     "definitions":[
+        {
+            "entityName" : "Correspondence",
+            "hasAttributes" :[
+                {
+                    "name": "contactType",
+                    "dataType": "string"
+                    
+                },
+                {
+                    "name": "ticketLanguage",
+                    "dataType": "string"
+                },
+                {
+                    "name": "respondedAt",
+                    "dataType": "date"
+                },
+                {
+                    "name": "lastUpdateAt",
+                    "dataType": "date"
+                }
+            ]
+        }
+ 
+     ]
+ }
+ 
+ 
+ 

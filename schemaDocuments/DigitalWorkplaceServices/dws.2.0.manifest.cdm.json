@@ -1,0 +1,47 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath" : "cdm:/core/cdsConcepts.cdm.json"
+    },
+    {
+      "corpusPath" : "cdm:/foundations.cdm.json"
+    },
+    {
+      "corpusPath" : "dws:/_allImports.cdm.json"
+    }
+  ],
+  "manifestName": "Digital Workplace services 2.0",
+  "explanation": "Digital Workplace services 2.0",
+  "subManifests": [
+      
+      {
+          "manifestName": "Digital Experience Monitoring",
+          "definition": "dem/dem.1.0.0.manifest.cdm.json"
+      },
+      {
+          "manifestName": "Virtual Agent Platform",
+          "definition": "va/virtualagent.1.0.manifest.cdm.json"
+      },
+      {
+        "manifestName": "Service Desk",
+        "definition": "servicedesk/servicedesk.1.0.0.manifest.cdm.json"
+      },
+      {
+        "manifestName": "XLA",
+        "definition": "xla/xla.1.0.0.manifest.cdm.json"
+      }
+  ],
+  "entities":[
+    {
+      "type": "LocalEntity",
+      "entityName": "Activity",
+      "entityPath": "common/Account.1.0.cdm.json/Account"
+    },
+    {
+      "type": "LocalEntity",
+      "entityName": "User",
+      "entityPath": "common/User.1.0.cdm.json/User"
+    }
+  ]
+} 
