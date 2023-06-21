@@ -1,9 +1,3 @@
-
-# Welcome to Kyndryl Digital Workplace Services Common Data Model 
-DWS Common Data Model is based on Common Data Model (<link>) published by Microsoft. 
-
-
-
 # Introduction
 
 The Kyndryl DWS Common Data Model defines a common language to describe business entities accross DWS Solutions. The standard is based on Microsoft's Common Data Model and follows the semantics defined in Microsoft Common Data Model (CDM)
