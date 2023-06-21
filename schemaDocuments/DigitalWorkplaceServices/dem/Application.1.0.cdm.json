@@ -2,9 +2,15 @@
 {
     "jsonSchemaSemanticVersion" : "1.1.0",
     "imports" : [
-       {
-         "corpusPath" : "_allimports.cdm.json"
-       }
+        {
+            "corpusPath" : "cdm:/foundations.cdm.json"
+          },
+          {
+            "corpusPath" : "cdm:/primitives.cdm.json"
+          },
+          {
+            "corpusPath" : "cdm:/meanings.cdm.json"
+          }
      ],
  
      "definitions":[
@@ -23,11 +29,7 @@
                 {
                     "name": "applicationName",
                     "dataType": "string"
-                },
-                {
-                    "name": "applicationType",
-                    "dataType": "string"
-                },
+                },    
                 {
                     "name": "applicationType",
                     "dataType": "string"

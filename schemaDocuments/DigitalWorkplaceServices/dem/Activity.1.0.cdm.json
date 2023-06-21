@@ -2,9 +2,15 @@
 {
     "jsonSchemaSemanticVersion" : "1.1.0",
     "imports" : [
-       {
-         "corpusPath" : "local:/_allImports.cdm.json"
-       }
+        {
+            "corpusPath" : "cdm:/foundations.cdm.json"
+          },
+          {
+            "corpusPath" : "cdm:/primitives.cdm.json"
+          },
+          {
+            "corpusPath" : "cdm:/meanings.cdm.json"
+          }
      ],
  
      "definitions":[

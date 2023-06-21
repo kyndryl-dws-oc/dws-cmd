@@ -1,14 +1,15 @@
 {
   "jsonSchemaSemanticVersion": "1.0.0",
   "imports": [
-    {
-      "corpusPath" : "cdm:/core/cdsConcepts.cdm.json"
-    },
+    
     {
       "corpusPath" : "cdm:/foundations.cdm.json"
     },
     {
-      "corpusPath" : "dws:/_allImports.cdm.json"
+      "corpusPath" : "cdm:/primitives.cdm.json"
+    },
+    {
+      "corpusPath" : "cdm:/meanings.cdm.json"
     }
   ],
   "manifestName": "Digital Workplace services 2.0",
