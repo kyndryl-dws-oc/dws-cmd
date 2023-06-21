@@ -44,11 +44,11 @@
                 },
                 {
                     "name": "city",
-                    "dataType": "string"
+                    "dataType": "city"
                 },
                 {
                     "name": "country",
-                    "dataType": "string"
+                    "dataType": "country"
                 },
                 {
                     "name": "department",
@@ -100,7 +100,7 @@
                 },
                 {
                     "name": "lastReportingDatetime",
-                    "dataType": "string"
+                    "dataType": "dateTime"
                 },
                 {
                     "name": "location",

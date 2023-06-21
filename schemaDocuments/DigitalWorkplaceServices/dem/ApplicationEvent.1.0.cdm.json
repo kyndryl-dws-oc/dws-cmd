@@ -50,7 +50,7 @@
                 },
                 {
                     "name": "timeframe",
-                    "dataType": "string"
+                    "dataType": "integer"
                 }
         
             ]

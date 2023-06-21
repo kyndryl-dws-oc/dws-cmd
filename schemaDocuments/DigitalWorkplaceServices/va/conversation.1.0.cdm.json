@@ -23,15 +23,19 @@
              },
              {
                  "name": "sessionStartTime",
-                 "dataType": "string"   
+                 "dataType": "dateTime"   
              },
              {
                  "name": "sessionEndTime",
-                 "dataType": "string"   
+                 "dataType": "dateTime"   
              },
              {
                  "name": "conversationFeedback",
                  "dataType": "string"   
+             },
+             {
+                 "name": "hasPrevious",
+                 "dataType": "boolean"   
              }
      
              

@@ -40,7 +40,7 @@
                 },
                 {
                     "name": "createdOn",
-                    "dataType": "date"
+                    "dataType": "dateTime"
                 }
 
 

@@ -52,11 +52,11 @@
                 },
                 {
                     "name": "resolutionMethod",
-                    "dataType": "integer"
+                    "dataType": "string"
                 },
                 {
                     "name": "worknotes",
-                    "dataType": "integer"
+                    "dataType": "string"
                 }
             ]
         }

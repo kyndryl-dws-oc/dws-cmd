@@ -36,11 +36,11 @@
                 },
                 {
                     "name": "priority",
-                    "dataType": "string"
+                    "dataType": "integer"
                 },
                 {
                     "name": "createdOn",
-                    "dataType": "date"
+                    "dataType": "dateTime"
                 },
                 {
                     "name": "location",
