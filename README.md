@@ -49,9 +49,9 @@ Schema definitins described here are based on the below DWS solution contexts.
 
 | sl#                       | DWS Solution Area         | link |
 | :---                      |     :---                          |          :--- |
-| 1                         | Virtual Agent Platform            | [ Conceptual ](https://musical-adventure-ey6okom.pages.github.io/weber/va/va.html)    <br/> [ Logical Model ](https://musical-adventure-ey6okom.pages.github.io/weber/va/vaer.html)    |
+| 1                         | Virtual Agent Platform            | [ Conceptual ](https://kyndryl-dws-oc.github.io/dws-cmd/weber/va/va.html)    <br/> [ Logical Model ](https://kyndryl-dws-oc.github.io/weber/va/vaer.html)    |
 | 2                         | Service Desk Analytics            | -   |
-| 3                         | Digital Experience Monitoring     | [ER Model Logical](https://musical-adventure-ey6okom.pages.github.io/weber/dem/dem1.0.html)    |
+| 3                         | Digital Experience Monitoring     | [ER Model Logical](https://kyndryl-dws-oc.github.io/weber/dem/dem1.0.html)    |
 | 4                         | Catalog of XLAs                   | -    |
 
 
