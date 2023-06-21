@@ -580,7 +580,7 @@ objectModel/TypeScript/.env
 objectModel/TypeScript/.next
 
 # ignore the tsc output
-*.js
+#*.js
 *.js.map
 *.d.ts
 
