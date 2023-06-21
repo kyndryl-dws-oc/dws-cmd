@@ -20,7 +20,7 @@
                 {
                     "name": "deviceId",
                     "dataType": "string",
-                    "appliedTraits":["means.identity"]
+                    "appliedTraits":["is.identifiedBy"]
                 },
                 {
                     "name": "deviceType",

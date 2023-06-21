@@ -19,7 +19,7 @@
                 {
                     "name": "interactionId",
                     "dataType": "string",
-                    "appliedTraits":["means.identity"]
+                    "appliedTraits":["is.identifiedBy"]
                 },
                 {
                     "name": "inputQuestion",

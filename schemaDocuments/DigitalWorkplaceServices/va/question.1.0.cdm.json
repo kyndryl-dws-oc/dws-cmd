@@ -28,7 +28,8 @@
             },
             {
                 "name":"questionUniqueID",
-                "dataType" : "string"
+                "dataType" : "string",
+                "appliedTraits":["is.identifiedBy"]
             }
     
         ]

@@ -20,7 +20,7 @@
                 {
                     "name": "ticketId",
                     "dataType": "string",
-                    "appliedTraits":["means.identity"]
+                    "appliedTraits":["is.identifiedBy"]
                 },
                 {
                     "name": "shortDescription",

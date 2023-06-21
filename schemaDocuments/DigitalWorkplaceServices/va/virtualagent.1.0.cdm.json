@@ -20,7 +20,7 @@
                 {
                     "name": "virtualAgentInstanceId",
                     "dataType": "string",
-                    "appliedTraits":["means.identity"]
+                    "appliedTraits":["is.identifiedBy"]
                 },
                 {
                     "name": "virtualAgentName",

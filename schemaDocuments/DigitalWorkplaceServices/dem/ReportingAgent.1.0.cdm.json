@@ -20,7 +20,7 @@
                 {
                     "name": "agentId",
                     "dataType": "string",
-                    "appliedTraits":["means.identity"]
+                    "appliedTraits":["is.identifiedBy"]
                 },
                 {
                     "name": "agentPath",

@@ -20,7 +20,7 @@
                 {
                     "name": "accountId",
                     "dataType": "string",
-                    "appliedTraits":["means.identity"]
+                    "appliedTraits":["is.identifiedBy"]
                 },
                 {
                     "name": "accountName",

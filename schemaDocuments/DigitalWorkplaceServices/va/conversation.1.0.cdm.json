@@ -18,7 +18,8 @@
          "hasAttributes" :[
              {
                  "name": "conversationID",
-                 "dataType": "string"
+                 "dataType": "string",
+                 "appliedTraits":["is.identifiedBy"]
              },
              {
                  "name": "sessionStartTime",

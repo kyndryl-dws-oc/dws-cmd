@@ -23,7 +23,7 @@
                 {
                     "name": "intentId",
                     "dataType": "string",
-                    "appliedTraits":["means.identity"]
+                    "appliedTraits":["is.identifiedBy"]
         
                 },
                 {
