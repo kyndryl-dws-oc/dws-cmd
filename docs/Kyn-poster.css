@@ -42,6 +42,20 @@
     margin: 12px;
     padding: 14px;
 }
+
+.family-row {
+
+    box-shadow: -7px 7px 10px -2px rgba(0,0,0,0.56);
+    /*pvss
+    background-color: #15659e;
+     */
+    background-color: #042315;
+    display: flex;
+    flex-flow: row;
+    margin: 12px;
+    padding: 14px;
+}
+
 .family-content {
     display: flex;
     flex-flow: row;

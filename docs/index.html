@@ -9,64 +9,157 @@
     <div class="host">
         <div class="title">Kyndryl <br/> Digital Workplace Services Common Data Model</div>
 
-        <br/><br/>
+        <br/><hr/><br/>
    <h3>Explore Data Models</h3>     
 
     <div class="row">
 
         <div class="column">
             <table>
-                <thead><td><strong>Solution</strong></td><td><strong>Model URL</strong></td> </thead>
-                
-                <tr ><td>1</td><td>Virtual Agent Platform </td><td><a href="./weber/va/va.html" target="_blank"> Conceptual Model</a></td></tr>
+
+                <thead><td></td><td><strong>Solution Area</strong></td><td><strong>Models</strong></td> </thead>
+                <tr ><td></td><td>Virtual Agent Platform </td><td><a href="./weber/va/va.html" target="_blank"> Conceptual Model</a></td></tr>
                 <tr ><td></td><td></td><td><a href="./weber/va/vaer.html" target="_blank"> Logical Data Model</a></td></tr>
-                <tr ><td>2</td><td>Service Desk Analytics </td><td><a href="#" target="_blank"> - </a></td></tr>
-                <tr ><td>3</td><td>Digital Experience Monitoring</td><td><a href="./weber/dem/dem1.0.html" target="_blank"> Logical Data Model</a></td></tr>
-                <tr ><td>4</td><td>Digital Experience Management</td><td><a href="#" target="_blank"> - </a></td></tr>
+                <tr ><td></td><td>Service Desk Analytics </td><td><a href="#" target="_blank">  </a></td></tr>
+                <tr ><td></td><td>Device Monitoring</td><td><a href="./weber/dem/dem1.0.html" target="_blank"> Logical Data Model</a></td></tr>
+                <tr ><td></td><td>XM-Experience Management</td><td><a href="./weber/xm/xm.html" target="_blank"> Logical Data Model </a></td></tr>
+                <tr ><td></td><td>Digital Workplace Services - All</td><td><a href="./weber/dws-all.html" target="_blank"> DWS Data Model </a></td></tr>
                 
             </table>
             <br/>
         </div>
     </div>
-<hr/>
-    <h3>Entity Explorer</h3>     
+<hr/><hr/>
+    <h3>Standardised Entity Explorer</h3>     
         <div class="row">
             <div class="column">
                 <div class="family">
                     <a href="SchemaViz.html?initialManifest=DigitalWorkplaceServices/dws.2.0.manifest.cdm.json&simpleChrome=true"
                         style="text-decoration: none;">
-                        <div class="family-title">Virtual Agents</div>
+                        <div class="family-title">Digital Workplace Services</div>
                         <div class="family-content">
                             <div class="family-common">
-                                <div class="entity">DeliveryAccount</div>
+                                <div class="entity">Account</div>
+                                <div class="entity">User</div>
                             </div>
 
                             <div class="family-application">
                                 <div class="application-title">Virtual Agents</div>
                                 
-                                <div class="entity">VirtualAgent</div>
+                                <div class="entity">Virtual Agent</div>
                                 <div class="entity">Conversation</div>
                                 <div class="entity">Topic</div>
                                 <div class="entity">Interaction</div>
                                 <div class="entity">Question</div>
                                 <div class="entity">Feedback</div>
+                                <div class="entity">Session</div>
+
+                                <div class="entity">Automation Request</div>
+                                <div class="entity">Knowledge Domain</div>
+                                <div class="entity">Automation Catalog</div>
+                                <div class="entity">Questions</div>
+                                <div class="entity">Articles</div>
+                                <div class="entity">Articles</div>
                                 
+
                             </div>
 
                             <div class="family-application">
-                                <div class="application-title">Continuous Learning / LOTJ</div>
+                                <div class="application-title">Device Monitoring</div>
+                                <div class="entity">Activity</div>
+                                <div class="entity">Application</div>
+                                <div class="entity">Application Event</div>
+                                <div class="entity">Device</div>
+                                <div class="entity">Device User</div>
+                                <div class="entity">Reporting Agent</div>
+                                <div class="entity">Device Health Event</div>                                
+                            </div>
+                            
+                            <div class="family-application">
+                                <div class="application-title">Ticket Analytics</div>
                                 <div class="entity">Feedback</div>
                                 <div class="entity">Top Call Driver</div>
+
+                                <div class="entity">Ticket</div>
+                                <div class="entity">Agent</div>
+                                <div class="entity">Assignment Group</div>
+                                <div class="entity">Correspondence</div>
+                                <div class="entity">Resolver Group</div>
+                                <div class="entity">Problem Details</div>
+                                <div class="entity">Knowledge Domain</div>
+                                <div class="entity">Resolution Info</div>
+
                                 
                             </div>
+                            <div class="family-application">
+                                <div class="application-title">XM</div>
+                                <div class="entity">Device Health Score</div>
+                                <div class="entity">Device Delivery</div>
+                                <div class="entity">Device Enrollment</div>
+                                <div class="entity">Device Experience</div>
+                                <div class="entity">Device Performance Feedback</div>
+                                <div class="entity">Digital Experience</div>
+                                <div class="entity">Experience</div>
+                                <div class="entity">Onboarding</div>
+                                <div class="entity">Support Experience</div>
+                                <div class="entity">UEM Experience Index</div>
+                                <div class="entity">User Experience Index</div>
+                                
+                                
 
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <div class="family-row">
+                            <div class="family-title">IT Service Manaement</div>
+
+                            <div class="family-application">
+                                <div class="application-title">Incident Management</div>
+                                
+                                <div class="entity">Incident</div>
+                                <div class="entity">Department</div>
+                                <div class="entity">Location</div>
+                                <div class="entity">User Group</div>
+                            </div>
+                            <div class="family-application">
+                                <div class="application-title">Change Management</div>
+                                
+                                <div class="entity">Change Request</div>
+                                <div class="entity">Change Task</div>
+                                <div class="entity">Configuration Item</div>
+                                
+
+                            </div>
+                            
+                            <div class="family-application">
+                                <div class="application-title">Service Catalog</div>
+                                
+                                <div class="entity">Service Catalog</div>
+                                <div class="entity">Service Category</div>
+                                <div class="entity">Department</div>
+                                <div class="entity">Location</div>
+                            </div>
+                            <div class="family-application">
+                                <div class="application-title">Request Fulfillment</div>
+                                
+                                <div class="entity">Service Catalog Request</div>
+                                <div class="entity">Request Item</div>
+                                <div class="entity">Task</div>
+                                
+
+                            </div>
                         </div>
                     </a>
                   
                 </div>
             </div>
            
-            <div class="column">
+            <!-- <div class="column">
                 <div class="family">
                     <a href="SchemaViz.html?initialManifest=DigitalWorkplaceServices/dws.2.0.manifest.cdm.json&simpleChrome=true"
                         style="text-decoration: none;">
@@ -96,108 +189,8 @@
                     </a>
                   
                 </div>
-            </div>
+            </div> -->
         </div>
-
-        <div class="row">
-                
-             <div class="column">
-                <div class="family">
-                    <a href="SchemaViz.html?initialManifest=DigitalWorkplaceServices/dws.2.0.manifest.cdm.json&simpleChrome=true"
-                        style="text-decoration: none;">
-                        <div class="family-title">Device Monitoring</div>
-                        <div class="family-content">
-                            <div class="family-common">
-                                <div class="entity">Employee</div>
-                            </div>
-
-                            <div class="family-application">
-                                <div class="application-title">End User segment</div>
-                                
-                                <div class="entity">Device</div>
-                                <div class="entity">Device Request</div>
-                                <div class="entity">Device Health</div>
-                            </div>
-
-                            <div class="family-application">
-                                <div class="application-title">Reliability</div>
-                                <div class="entity">Device Status</div>
-                                
-                            </div>
-
-                        </div>
-                    </a>
-                  
-                </div>
-             </div>
-                <div class="column">
-                    
-                    <div class="family">
-                        <a href="SchemaViz.html?initialManifest=DigitalWorkplaceServices/dws.2.0.manifest.cdm.json&simpleChrome=true"
-                            style="text-decoration: none;">
-                            <div class="family-title">Experience Management</div>
-                            <div class="family-content">
-                            
-                                <div class="family-application">
-                                    <div class="application-title">Device Experience Monitoring</div>
-                                    
-                                    <div class="entity">XLA</div>
-                                    
-                                </div>
-
-                                <div class="family-application">
-                                    <div class="application-title">Employee Experience Monitoring</div>
-                                    
-                                    <div class="entity">XLA</div>
-                                    
-                                </div>
-                                <div class="family-application">
-                                    <div class="application-title">Customer Experience Monitoring</div>
-                                    
-                                    <div class="entity">XLA</div>
-                                    
-                                </div>
-
-                            </div>
-                        </a>
-                      
-                    </div>
-                </div>
-                <div class="row">
-                    
-                </div>
-                
-               
-
-            </div>
-
-
-        </div>
-        
-
-        <div class="row">
-            <div class="row">
-                <div class="column">
-                    <div class="column" style="align-self: flex-end;">
-                        <div class="column" style="margin-bottom: 60px;">
-                            <a href="SchemaViz.html?initialManifest=standards.manifest.cdm.json&simpleChrome=true"> <img
-                                    src="all-entities.PNG" /></a>
-                            <div style="font-weight: bold;">ALL ENTITIES</div>
-                        </div>
-        
-                        <div class="column">
-                            <a href="SchemaViz.html"> <img src="advanced.PNG" /></a>
-                            <div style="font-weight: bold;">ADVANCED NAVIGATOR</div>
-                        </div>
-                        <div class="column">
-                            <div style="height:200px"></div>
-                        </div>
-        
-                    </div>
-            </div>
-
-        </div>
-
     </div>
 
 </body>
