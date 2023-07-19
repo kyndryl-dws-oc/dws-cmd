@@ -11,9 +11,9 @@
             "corpusPath" : "cdm:/meanings.cdm.json"
           }
      ],
-     "manifestName": "Insights on Collabaration Services",
+     "manifestName": "Insights on Collaboration Services",
 
-     "explanation": "Insights on Collabaration Services",
+     "explanation": "Insights on Collaboration Services",
      "entities":[
         {
             "type": "LocalEntity",
