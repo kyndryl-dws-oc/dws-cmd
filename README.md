@@ -62,7 +62,7 @@ Schema definitins described here are based on the below DWS solution contexts.
 - Step 1 :  **clone githib repo.** for ex. below clones testpilot repo from 'kyndryl-dws-oc' Org.
 
     ```
-    https://github.com/kyndryl-dws-oc/testpilot.git
+    https://github.com/kyndryl-dws-oc/dws-cmd
     ```
 
     From the clonned folder, Find the the directories /schemaDocuments/DigitalWorkplaceServices
