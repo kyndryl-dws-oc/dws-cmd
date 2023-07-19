@@ -1,0 +1,45 @@
+{
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "imports" : [
+        {
+            "corpusPath" : "cdm:/foundations.cdm.json"
+          },
+          {
+            "corpusPath" : "cdm:/primitives.cdm.json"
+          },
+          {
+            "corpusPath" : "cdm:/meanings.cdm.json"
+          }
+     ],
+     "manifestName": "Insights on Collobaration Services",
+
+     "explanation": "Insights on Collobaration Services",
+     "entities":[
+        {
+            "type": "LocalEntity",
+            "entityName": "ChannelEffectivenessIndex",
+            "entityPath": "ChannelEffectivenessIndex.1.0.cdm.json/ChannelEffectivenessIndex"
+        },
+        {
+          "type": "LocalEntity",
+          "entityName": "DigitalFrictionScore",
+          "entityPath": "DigitalFrictionScore.1.0.cdm.json/DigitalFrictionScore"
+        },
+        {
+          "type": "LocalEntity",
+          "entityName": "VirtualCollaborationIndex",
+          "entityPath": "VirtualCollaborationIndex.1.0.cdm.json/VirtualCollaborationIndex"
+        },
+        {
+          "type": "LocalEntity",
+          "entityName": "VirtualMeetingsIndex",
+          "entityPath": "VirtualMeetingsIndex.1.0.cdm.json/VirtualMeetingsIndex"
+        }
+     ],
+     "relationships":[
+        
+     ]
+ }
+ 
+ 
+ 

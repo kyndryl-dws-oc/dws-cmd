@@ -1,0 +1,47 @@
+{
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "imports" : [
+        {
+            "corpusPath" : "cdm:/foundations.cdm.json"
+          },
+          {
+            "corpusPath" : "cdm:/primitives.cdm.json"
+          },
+          {
+            "corpusPath" : "cdm:/meanings.cdm.json"
+          }
+     ],
+     "manifestName": "Service Desk Insights",
+
+     "explanation": "Service Desk Related IT Insights",
+     "entities":[
+        {
+            "type": "LocalEntity",
+            "entityName": "QueueHandleTimeSummary",
+            "entityPath": "QueueHandleTimeSummary.1.0.cdm.json/QueueHandleTimeSummary"
+        },
+        {
+          "type": "LocalEntity",
+          "entityName": "CSAT",
+          "entityPath": "CSAT.1.0.cdm.json/CSAT"
+        },
+        {
+          "type": "LocalEntity",
+          "entityName": "CSTicketShiftIndexAT",
+          "entityPath": "TicketShiftIndex.1.0.cdm.json/TicketShiftIndex"
+        },
+        {
+          "type": "LocalEntity",
+          "entityName": "UserEffortScore",
+          "entityPath": "UserEffortScore.1.0.cdm.json/UserEffortScore"
+        }
+        
+        
+     ],
+     "relationships":[
+        
+     ]
+ }
+ 
+ 
+ 

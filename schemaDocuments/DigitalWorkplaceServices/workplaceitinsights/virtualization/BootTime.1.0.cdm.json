@@ -1,0 +1,42 @@
+
+{
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "imports" : [
+        {
+            "corpusPath" : "cdm:/foundations.cdm.json"
+          },
+          {
+            "corpusPath" : "cdm:/primitives.cdm.json"
+          },
+          {
+            "corpusPath" : "cdm:/meanings.cdm.json"
+          }
+     ],
+     
+     "definitions":[
+        {
+            "entityName" : "BootTime",
+            "description" : "Boot Time",
+            "hasAttributes" :[
+                {
+                    "name": "metricID",
+                    "dataType": "string",
+                    "appliedTraits":["is.identifiedBy"]
+                },
+                {
+                    "name": "name",
+                    "dataType": "string"
+                },
+                {
+                    "name":"definition",
+                    "dataType":"string",
+                    "description":"Boot Time performance obtained from DEM"
+                }
+        
+            ]
+        }
+ 
+     ]
+ }
+ 
+ 

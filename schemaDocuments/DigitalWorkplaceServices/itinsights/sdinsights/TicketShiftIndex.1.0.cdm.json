@@ -1,0 +1,46 @@
+
+{
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "imports" : [
+        {
+            "corpusPath" : "cdm:/foundations.cdm.json"
+          },
+          {
+            "corpusPath" : "cdm:/primitives.cdm.json"
+          },
+          {
+            "corpusPath" : "cdm:/meanings.cdm.json"
+          }
+     ],
+     
+     "definitions":[
+        {
+            "entityName" : "TicketShiftIndex",
+            "description": "Ticket Shift (Right to Left Shift) Index",
+            "hasAttributes" :[
+                {
+                    "name": "metricID",
+                    "dataType": "string",
+                    "appliedTraits":["is.identifiedBy"]
+                },
+                {
+                    "name": "name",
+                    "dataType": "string"
+                },
+                {
+                    "name": "description",
+                    "dataType": "string"
+                },
+                {
+                    "name":"definition",
+                    "dataType":"string",
+                    "description":"(Vol. of Tickets per * weighted Level(L0-L3)) / Total Tickets"
+                }
+        
+            ]
+        }
+ 
+     ]
+ }
+ 
+ 

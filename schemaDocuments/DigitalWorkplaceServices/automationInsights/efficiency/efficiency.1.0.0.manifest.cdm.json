@@ -1,0 +1,37 @@
+{
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "imports" : [
+        {
+            "corpusPath" : "cdm:/foundations.cdm.json"
+          },
+          {
+            "corpusPath" : "cdm:/primitives.cdm.json"
+          },
+          {
+            "corpusPath" : "cdm:/meanings.cdm.json"
+          }
+     ],
+     "manifestName": "Efficiency Gains",
+
+     "explanation": "Insights on Efficiency Gains",
+     "entities":[
+        {
+            "type": "LocalEntity",
+            "entityName": "AutomationEfficiencyGainInEffort",
+            "entityPath": "AutomationEfficiencyGainInEffort.1.0.cdm.json/AutomationEfficiencyGainInEffort"
+        },
+        {
+          "type": "LocalEntity",
+          "entityName": "AutomationEfficiencyGainInCost",
+          "entityPath": "AutomationEfficiencyGainInCost.1.0.cdm.json/AutomationEfficiencyGainInCost"
+        }
+
+        
+     ],
+     "relationships":[
+        
+     ]
+ }
+ 
+ 
+ 

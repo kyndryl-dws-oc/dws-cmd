@@ -1,0 +1,46 @@
+
+{
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "imports" : [
+        {
+            "corpusPath" : "cdm:/foundations.cdm.json"
+          },
+          {
+            "corpusPath" : "cdm:/primitives.cdm.json"
+          },
+          {
+            "corpusPath" : "cdm:/meanings.cdm.json"
+          }
+     ],
+     
+     "definitions":[
+        {
+            "entityName" : "UserEffortScore",
+            "description" : "User Effort Score (Qualitative)",
+            "hasAttributes" :[
+                {
+                    "name": "metricID",
+                    "dataType": "string",
+                    "appliedTraits":["is.identifiedBy"]
+                },
+                {
+                    "name": "name",
+                    "dataType": "string"
+                },
+                {
+                    "name": "description",
+                    "dataType": "string"
+                },
+                {
+                    "name":"definition",
+                    "dataType":"string",
+                    "description":"Average Queue(IVR) handle time"
+                }
+        
+            ]
+        }
+ 
+     ]
+ }
+ 
+ 

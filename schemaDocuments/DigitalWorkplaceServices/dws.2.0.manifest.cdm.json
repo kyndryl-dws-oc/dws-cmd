@@ -31,6 +31,22 @@
       {
         "manifestName": "XLA",
         "definition": "xla/xla.1.0.0.manifest.cdm.json"
+      },
+      {
+        "manifestName": "IT Support Insights",
+        "definition": "itinsights/itinsights.1.0.0.manifest.cdm.json"
+      },
+      {
+        "manifestName": "Modern Workplace Insights",
+        "definition": "workplaceitinsights/workplaceitinsights.1.0.0.manifest.cdm.json"
+      },
+      {
+        "manifestName": "Automation Insights",
+        "definition": "automationInsights/automation.1.0.0.manifest.cdm.json"
+      },
+      {
+        "manifestName": "Device Lifecycle Insight",
+        "definition": "dlcInsights/dlinsights.1.0.0.manifest.cdm.json"
       }
   ],
   "entities":[

@@ -1,0 +1,51 @@
+{
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "imports" : [
+        {
+            "corpusPath" : "cdm:/foundations.cdm.json"
+          },
+          {
+            "corpusPath" : "cdm:/primitives.cdm.json"
+          },
+          {
+            "corpusPath" : "cdm:/meanings.cdm.json"
+          }
+     ],
+     "manifestName": "Insights on Desktop Virtualization",
+
+     "explanation": "Insights Insights Related to Desktop Virtualization",
+     "entities":[
+        {
+            "type": "LocalEntity",
+            "entityName": "ApplicationResponseTime",
+            "entityPath": "ApplicationResponseTime.1.0.cdm.json/ApplicationResponseTime"
+        },
+        {
+          "type": "LocalEntity",
+          "entityName": "BootTime",
+          "entityPath": "BootTime.1.0.cdm.json/BootTime"
+        },
+        {
+          "type": "LocalEntity",
+          "entityName": "CapacityUtilization",
+          "entityPath": "CapacityUtilization.1.0.cdm.json/CapacityUtilization"
+        },
+        {
+          "type": "LocalEntity",
+          "entityName": "Latency",
+          "entityPath": "Latency.1.0.cdm.json/Latency"
+        },
+        {
+          "type": "LocalEntity",
+          "entityName": "PatchingComplianceScore",
+          "entityPath": "PatchingComplianceScore.1.0.cdm.json/PatchingComplianceScore"
+        }
+        
+     ],
+     "relationships":[
+        
+     ]
+ }
+ 
+ 
+ 

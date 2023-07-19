@@ -1,0 +1,36 @@
+{
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "imports" : [
+        {
+            "corpusPath" : "cdm:/foundations.cdm.json"
+          },
+          {
+            "corpusPath" : "cdm:/primitives.cdm.json"
+          },
+          {
+            "corpusPath" : "cdm:/meanings.cdm.json"
+          }
+     ],
+     "manifestName": "Virtual Agent Insights",
+
+     "explanation": "Service Desk Related IT Insights",
+     "entities":[
+        {
+            "type": "LocalEntity",
+            "entityName": "VirtualAgentEfficiency",
+            "entityPath": "VirtualAgentEfficiency.1.0.cdm.json/VirtualAgentEfficiency"
+        },
+        {
+          "type": "LocalEntity",
+          "entityName": "VAHandoverRate",
+          "entityPath": "VAHandoverRate.1.0.cdm.json/VAHandoverRate"
+      }
+        
+     ],
+     "relationships":[
+        
+     ]
+ }
+ 
+ 
+ 

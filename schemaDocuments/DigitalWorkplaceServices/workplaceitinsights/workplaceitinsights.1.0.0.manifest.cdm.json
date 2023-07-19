@@ -1,0 +1,36 @@
+{
+  "jsonSchemaSemanticVersion" : "1.1.0",
+  "imports" : [
+    {
+        "corpusPath" : "cdm:/foundations.cdm.json"
+      },
+      {
+        "corpusPath" : "cdm:/primitives.cdm.json"
+      },
+      {
+        "corpusPath" : "cdm:/meanings.cdm.json"
+      }
+   ],
+   "manifestName": "Modern Workplace Insights",
+
+   "explanation": "Entities Representing XLA and XPI ",
+   "entities":[
+      
+   ],
+   "subManifests": [
+      
+    {
+        "manifestName": "Insights Related to Collaboration services",
+        "definition": "collaboration/collab.1.0.0.manifest.cdm.json"
+    },
+    {
+      "manifestName": "Insights Related to Desktop Virtualization",
+      "definition": "virtualization/virtualization.1.0.0.manifest.cdm.json"
+  }
+],
+   "relationships":[
+      
+   ]
+}
+
+

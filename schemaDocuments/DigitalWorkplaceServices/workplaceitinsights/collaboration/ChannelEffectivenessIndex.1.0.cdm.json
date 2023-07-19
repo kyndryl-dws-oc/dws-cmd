@@ -1,0 +1,43 @@
+
+{
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "imports" : [
+        {
+            "corpusPath" : "cdm:/foundations.cdm.json"
+          },
+          {
+            "corpusPath" : "cdm:/primitives.cdm.json"
+          },
+          {
+            "corpusPath" : "cdm:/meanings.cdm.json"
+          }
+     ],
+     
+     "definitions":[
+        {
+            "entityName" : "ChannelEffectivenessIndex",
+            "description" : "Collab Channel(Teams) Effectiveness Index",
+            "hasAttributes" :[
+                {
+                    "name": "metricID",
+                    "dataType": "string",
+                    "appliedTraits":["is.identifiedBy"]
+                },
+                {
+                    "name": "name",
+                    "dataType": "string"
+                },
+                
+                {
+                    "name":"definition",
+                    "dataType":"string",
+                    "description":" Number of Call Drops per meeting, Survey from MS Teams"
+                }
+        
+            ]
+        }
+ 
+     ]
+ }
+ 
+ 

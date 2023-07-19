@@ -1,0 +1,32 @@
+{
+  "jsonSchemaSemanticVersion" : "1.1.0",
+  "imports" : [
+    {
+        "corpusPath" : "cdm:/foundations.cdm.json"
+      },
+      {
+        "corpusPath" : "cdm:/primitives.cdm.json"
+      },
+      {
+        "corpusPath" : "cdm:/meanings.cdm.json"
+      }
+   ],
+   "manifestName": "Insights on Automation",
+
+   "explanation": "Insights on Automation",
+   "entities":[
+      
+   ],
+   "subManifests": [
+      
+    {
+        "manifestName": "Insights Efficiency Gains",
+        "definition": "efficiency/efficiency.1.0.0.manifest.cdm.json"
+    }
+],
+   "relationships":[
+      
+   ]
+}
+
+

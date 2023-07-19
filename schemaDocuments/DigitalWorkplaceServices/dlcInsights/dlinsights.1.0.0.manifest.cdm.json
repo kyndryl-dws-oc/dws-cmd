@@ -1,0 +1,32 @@
+{
+  "jsonSchemaSemanticVersion" : "1.1.0",
+  "imports" : [
+    {
+        "corpusPath" : "cdm:/foundations.cdm.json"
+      },
+      {
+        "corpusPath" : "cdm:/primitives.cdm.json"
+      },
+      {
+        "corpusPath" : "cdm:/meanings.cdm.json"
+      }
+   ],
+   "manifestName": "Insights on Device Lifecycle",
+
+   "explanation": "Insights on Device Lifecycle",
+   "entities":[
+      
+   ],
+   "subManifests": [
+      
+    {
+        "manifestName": "Device Management Insights",
+        "definition": "dminsights/dmi.1.0.0.manifest.cdm.json"
+    }
+],
+   "relationships":[
+      
+   ]
+}
+
+
